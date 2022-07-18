@@ -17,10 +17,10 @@ APPROVED = os.environ.get("APPROVED_WELCOME", "on").lower()
 async def start(client: pr0fess0r_99, message: Message):
     approvedbot = await client.get_me() 
     button=[[
-      InlineKeyboardButton("𝚄𝙿𝙳𝙰𝚃𝙴𝚉", url="https://t.me/MWUpdatez"),
-      InlineKeyboardButton("𝚂𝚄𝙿𝙿𝙾𝚁𝚃", url="https://t.me/OpusTechz")
+      InlineKeyboardButton("How to Use", text="I'm a channel actions bot,mainly focused on working with the new admin approval invite links."),
+      InlineKeyboardButton("Queries", text="@RadonQueries_bot")
       ],[
-      InlineKeyboardButton("𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴", url=f"https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA")
+      InlineKeyboardButton("Usage Instructions", text="Add me to your channel,as an administrator,with add users permission and forward me a message from that chat to set me up.")
       ]]
     await message.reply_text(text="**𝙷𝙴𝙻𝙻𝙾...⚡\n\n𝙸𝙰𝙼 𝙰 𝚂𝙸𝙼𝙿𝙻𝙴 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 𝙰𝚄𝚃𝙾 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙰𝙲𝙲𝙴𝙿𝚃 𝙱𝙾𝚃.\nMADE BY DrKGR..**", reply_markup=InlineKeyboardMarkup(button), disable_web_page_preview=True)
 
